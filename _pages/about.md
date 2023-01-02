@@ -2,26 +2,36 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student, Computer Vision Researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: saeed.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>EPFL ENAC IIC VITA</p>
-    <p>GC C1 391 (Bâtiment GC)</p>
-    <p>Station 18</p>
-    <p>CH-1015 Lausanne</p>
+    <p>{first.lastname}@epfl.ch</p>
+    <p><a href="https://plan.epfl.ch//?room==GC%20C1%20391">Office GC C1 391</i></a>, EPFL</p>
+    <p>Lausanne, Switzerland</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a computer vision researcher.
+I'm a last year PhD student at [EPFL](https://people.epfl.ch/saeed.saadatnejad?lang=en) advised by [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I'm also a Marie-Curie fellow and an [EPFLInnovator](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflinnovators/).
+<!-- working computer vision researcher mainly interested in Generative models in  Image and video synthesis, Human behavior prediction, Human pose forecasting, etc. -->
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
+**Research interests** I’m interested in deep generative models (Normalizing Flows, VAEs, GANs, Diffusion models, ...) and have used them in different applications: [image synthesis](https://arxiv.org/abs/2112.05134), [behavior prediction](https://arxiv.org/abs/2010.10270) and [human motion forecasting](https://arxiv.org/abs/2210.05669).
+I am also conducting research on analyzing failures of [trajectory prediction](https://s-attack.github.io) models of self-driving cars using generative models and adversarial attacks.
+
+Previously, I obtained my MS and BS in computer science and electrical engineering at Sharif Univ. of Tech. I have done research internships at [Disney Research](https://disneyresearch.com/) and Valeo. Feel free to check my LinkedIn for more information. A detailed CV/resume is available upon request.
+
+
+<!-- **LinkedIn** <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+, **Scholar** <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+, **E-mail** <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a> -->
+
+
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 

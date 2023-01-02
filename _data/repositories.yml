@@ -1,12 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - saeedsaadatnejad
+  # - vita-epfl
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - vita-epfl/s-attack
+  - vita-epfl/bounding-box-prediction
+  - vita-epfl/decoupled-pose-prediction
+  - vita-epfl/SemDisc
+  # - vita-epfl/posepred
+  # - vita-epfl/social-pose
+  # - vita-epfl/denoised-pose-prediction
