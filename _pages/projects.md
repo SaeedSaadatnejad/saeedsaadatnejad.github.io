@@ -17,4 +17,8 @@ horizontal: false
   <div class="container">
       {% include projects.html %}
   </div>
+  <br><br>
+  <div class="container">
+    {% twitter https://twitter.com/ssaadatnejad maxwidth=500 limit=3 %}
+  </div>
 </div>
