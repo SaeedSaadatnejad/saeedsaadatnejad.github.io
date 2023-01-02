@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student, Computer Vision Researcher
+subtitle: PhD student, Computer vision researcher
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>{first.lastname}@epfl.ch</p>
-    <p><a href="https://plan.epfl.ch//?room==GC%20C1%20391">Office GC C1 391</i></a>, EPFL</p>
+    <p><a href="https://plan.epfl.ch//?room==GC%20C1%20391">Office GC C1 391</i></a>, EPFL,</p>
     <p>Lausanne, Switzerland</p>
 
 news: true  # includes a list of news items
