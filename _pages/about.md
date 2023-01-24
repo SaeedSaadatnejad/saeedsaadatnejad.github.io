@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a last year PhD student at [EPFL](https://people.epfl.ch/saeed.saadatnejad?lang=en) advised by [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I'm also a Marie-Curie fellow and an [EPFLInnovator](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflinnovators/).
+I'm a last year PhD student at [EPFL](https://people.epfl.ch/saeed.saadatnejad?lang=en) advised by [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I'm also a Marie-Curie fellow as [EPFLInnovator](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflinnovators/).
 
 **Research interests** I’m interested in deep generative models (Normalizing Flows, VAEs, GANs, Diffusion models, ...) and have used them in different applications: [image synthesis](https://arxiv.org/abs/2112.05134), [behavior prediction](https://arxiv.org/abs/2010.10270) and [human motion forecasting](https://arxiv.org/abs/2210.05669).
 I am also conducting research on analyzing failures of [trajectory prediction](https://s-attack.github.io) models of self-driving cars using generative models and adversarial attacks.
