@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student, Computer vision researcher
+subtitle: PhD, Computer vision researcher
 
 profile:
   align: right
@@ -18,12 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a final year PhD student at [EPFL](https://people.epfl.ch/saeed.saadatnejad?lang=en) advised by [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I'm also a Marie-Curie fellow as [EPFLInnovator](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflinnovators/).
+I'm a research scientist at [EPFL](https://people.epfl.ch/saeed.saadatnejad?lang=en), where I recently earned my Ph.D. in computer science advised by [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I was also a Marie-Curie fellow as [EPFLInnovator](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflinnovators/).
 
 **Research interests** I’m interested in deep generative models (Normalizing Flows, VAEs, GANs, Diffusion models, ...) and have used them in different applications: [image synthesis](https://arxiv.org/abs/2112.05134), [behavior prediction](https://arxiv.org/abs/2010.10270) and [human motion forecasting](https://arxiv.org/abs/2210.05669).
 I am also conducting research on analyzing failures of [trajectory prediction](https://s-attack.github.io) models of self-driving cars using generative models and adversarial attacks.
 
-Previously, I obtained my MS and BS in computer science and electrical engineering at Sharif Univ. of Tech. I have done research internships at [Disney Research](https://disneyresearch.com/) and Valeo. Feel free to check my LinkedIn for more information. A detailed CV/resume is available upon request.
+Previously, I obtained my MS and BS in computer science and electrical engineering at Sharif Univ. of Tech. I have also completed research internships at [Disney Research](https://disneyresearch.com/) and Valeo and co-founded [Pathy](https://pathy.ai). Feel free to check my LinkedIn for more information. A detailed CV/resume is available upon request.
 
 
 <!-- **LinkedIn** <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
