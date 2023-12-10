@@ -6,7 +6,7 @@ subtitle: PhD, Computer vision researcher
 
 profile:
   align: right
-  image: saeed.jpg
+  image: saeed2.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>{first.lastname}@epfl.ch</p>
