@@ -2,7 +2,7 @@
 layout: page
 title: PosePred
 permalink: /posepred/
-description: A growing collection of human pose prediction.
+description: 
 nav: false
 nav_order: 4
 display_categories: [posepred]
