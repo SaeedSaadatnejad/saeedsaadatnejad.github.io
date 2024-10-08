@@ -40,9 +40,9 @@ layout: default
             {{ content }}
           </div>
 
-          {% if page.news -%}
+          {% if page.news_short -%}
           <!-- News -->
-          {%- include news.html %}
+          {%- include news_short.html %}
           {%- endif %}
           {% if page.selected_papers -%}
             <!-- Selected papers -->

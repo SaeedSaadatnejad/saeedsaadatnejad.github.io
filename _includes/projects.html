@@ -1,31 +1,36 @@
-          
-          <div class="news">
-            <h2></h2>
-            {% if site.news != blank -%} 
-            {%- assign news_size = site.news | size -%}
-            <div class="table-responsive" {% if site.news_scrollable and news_size > 100 %}style="max-height: 15vw"{% endif %}>
-              <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
-              {% if site.news_limit %}
-              {% assign news_limit = site.news_limit %}
-              {% else %}
-              {% assign news_limit = news_size %}
-              {% endif %}
-              {% for item in news limit: news_limit %} 
-                <tr>
-                  <th scope="row">{{ item.date | date: "%b %Y" }}</th>
-                  <td>
-                    {% if item.inline -%} 
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %} 
-                  </td>
-                </tr>
-              {%- endfor %} 
-              </table>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  {% if project.redirect -%}
+  <a href="{{ project.redirect }}">
+    {%- else -%}
+    <a href="{{ project.url | relative_url }}">
+      {%- endif %}
+      <div class="card hoverable">
+        {%- if project.img %}
+        {%- include figure.html
+          path=project.img
+          alt="project thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+          <p class="card-text">{{ project.description }}</p>
+          <div class="row ml-1 mr-1 p-0">
+            {%- if project.github -%}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+              {%- if project.github_stars -%}
+              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <i class="fas fa-star"></i>
+                <span id="{{ project.github_stars }}-stars"></span>
+              </span>
+              {%- endif %}
             </div>
-          {%- else -%} 
-            <p>No news so far...</p>
-          {%- endif %} 
+            {%- endif %}
           </div>
+        </div>
+      </div>
+    </a>
+</div>
