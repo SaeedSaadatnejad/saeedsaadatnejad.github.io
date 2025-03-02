@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD, Computer vision researcher
+subtitle: PhD, AI researcher
 
 profile:
   align: right
@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>{first.lastname}@epfl.ch</p>
-    <p><a href="https://plan.epfl.ch//?room==GC%20C1%20391">Office GC C1 391</i></a>, EPFL,</p>
     <p>Lausanne, Switzerland</p>
 
 news_short: true  # includes a list of news items
@@ -18,12 +17,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a research scientist at [EPFL](https://people.epfl.ch/saeed.saadatnejad?lang=en), where I recently earned my Ph.D. in computer science advised by [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I was also a Marie-Curie fellow as [EPFLInnovator](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflinnovators/).
+I'm a research scientist in Generative AI. I recently obtained my Ph.D. in computer science from EPFL, advised by [Alexandre Alahi](https://people.epfl.ch/alexandre.alahi?lang=en). I was also a Marie-Curie fellow as [EPFLInnovator](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epflinnovators/).
 
 **Research interests** I’m interested in deep generative models (Normalizing Flows, VAEs, GANs, Diffusion models, ...) and have used them in different applications: [image synthesis](https://arxiv.org/abs/2112.05134), [behavior prediction](https://arxiv.org/abs/2010.10270) and [human motion prediction](https://arxiv.org/abs/2210.05669).
 I am also conducting research on analyzing failures of [trajectory prediction](https://s-attack.github.io) models of self-driving cars using generative models and adversarial attacks.
 
-Previously, I obtained my MS and BS in computer science and electrical engineering at Sharif Univ. of Tech. I have also completed research internships at [Disney Research](https://disneyresearch.com/) and Valeo and co-founded Pathy. Feel free to check my LinkedIn for more information. A detailed CV/resume is available upon request.
+Previously, I obtained my MS and BS in computer science and electrical engineering at Sharif Univ. of Tech. I have also collaborated with the Toyota Research Institute ([TRI](https://www.tri.global)), completed research internships at [Disney Research](https://disneyresearch.com/) and Valeo, and co-founded Pathy. Feel free to check my LinkedIn for more information. A detailed CV/resume is available upon request.
 
 
 <!-- **LinkedIn** <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
